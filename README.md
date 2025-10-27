@@ -1,8 +1,8 @@
-# Contract Files Documentation
+# Aril Program V1 Documentation
 
 ## Project Structure Overview
 
-This project is a Solana LP token lending protocol based on the Anchor framework, designed with a modular architecture.
+This project is a lending protocol based on the Anchor framework, designed with a modular architecture.
 
 ## Core Files Description
 
