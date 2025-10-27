@@ -1,0 +1,31 @@
+[package]
+name = "solana_lp_lending"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "solana_lp_lending"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
+custom-heap = []
+custom-panic = []
+anchor-debug = []
+devnet = ["raydium-clmm-cpi/devnet"]
+
+
+[dependencies]
+anchor-lang = { workspace = true }
+anchor-spl = { workspace = true }
+chainlink_solana = { workspace = true }
+getrandom = { workspace = true }
+raydium-clmm-cpi = { git = "https://github.com/raydium-io/raydium-cpi", package = "raydium-clmm-cpi", features = ["devnet"] }
+
+
