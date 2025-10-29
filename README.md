@@ -1,4 +1,10 @@
-# Aril Program V1 Documentation
+# Aril V1 Documentation
+
+We have two technical repos to present at the Colossem Hackathon. 
+
+* Lending protocol we deployed on Solana Devnet: [program-v1](https://github.com/Y-Defi/programs-v1);
+* A zk proof designed to disclose information about off-chain transactions for the neutral strategy: [zk-proof](https://github.com/Y-Defi/zk-proof).
+
 
 ## Project Structure Overview
 
